@@ -1,18 +1,9 @@
-# Hello, world!
-#
-# This is an example function named 'hello' 
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
+GetDataAsset <- function() {
+  read.csv("https://www.dropbox.com/s/5mzc60tbh09ew49/lalonde%20nsw.csv.zip?dl=0")
+}
 
-hello <- function() {
-  print("Hello, world!")
+
+AnalysisFunction <- function() {
+  x <- round(runif(1000, -1, 1))
+  training <- c("T", "F")
 }
