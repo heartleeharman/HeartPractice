@@ -1,11 +1,10 @@
 Package: HeartPractice
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Practice Package
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: HeartLee Harman
+Maintainer: heartleeharman@utexas.edu
+Description: Pulls data asset and includes function for a numeric array x and randomly adds white noise. This is a practice package for class assignment.
 License: What license is it under? Public Domain
 Encoding: UTF-8
 LazyData: true
